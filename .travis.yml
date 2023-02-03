@@ -1,3 +1,9 @@
 language: node_js
 node_js:
   - 7
+
+jobs:
+  include:
+    - stage: test
+      script: ./test
+  
