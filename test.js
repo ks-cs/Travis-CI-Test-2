@@ -6,7 +6,7 @@ const { test } = require('./hello');
 // var expect = chai.expect
 
 const hello = (text) => {
-    return 5;
+    return text;
 }
 
 // expect function takes the function and a test input and include
